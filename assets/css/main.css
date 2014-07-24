@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Arvo', serif;;
+}
+
+span.location {
+	font-size: 100px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+span.venue-name {
+	background: url('../images/loader.gif');
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	font-weight: 700;
+}
+
+
+span.yes {
+	display: none;
+	color: green;
+	font-size: 200px;
+	border: 5px solid green;
+	cursor: pointer;
+	width: 500px;
+	margin: 0 auto 50px;
+}
+
+
+span.no {
+	display: none;
+	color: red;
+	font-size: 30px;
+	border: 5px solid red;
+	cursor: pointer;
+	width: 250px;
+	margin: 0 auto;
+
+}
+
+span.answer {
+	display: none;
+	font-size: 100px;
+}
+
+span.meal {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+span.error-first,
+span.error-second {
+	display: none;
+	font-size: 100px;
+}
