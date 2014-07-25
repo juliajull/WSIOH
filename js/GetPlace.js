@@ -103,7 +103,7 @@ function GetPlace() {
 
 		_nameSpan.innerHTML = _venueName;
 
-		_nameSpan.style.display = 'block';
+		_nameSpan.style.display = 'inline-block';
 		_noSpan.style.display = 'block';
 		_yesSpan.style.display = 'block';
 

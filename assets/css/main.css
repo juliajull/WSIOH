@@ -5,35 +5,51 @@ html, body {
 
 body {
 	width: 100%;
-	overflow: hidden;
 	text-align: center;
 	font-family: 'Arvo', serif;;
 }
 
+.text-wrap-first {
+	margin-top: 50px;
+}
+
 span.location {
 	font-size: 100px;
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
 }
 
 span.venue-name {
 	background: url('../images/loader.gif');
 	background-repeat: no-repeat;
+	background-position: center;
 	width: 100px;
 	height: 20px;
 	display: inline-block;
 	font-weight: 700;
+	font-size: 100px;
 }
 
+span.question-mark {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 100px;	
+}
 
 span.yes {
 	display: none;
 	color: green;
-	font-size: 200px;
+	font-size: 170px;
 	border: 5px solid green;
 	cursor: pointer;
 	width: 500px;
 	margin: 0 auto 50px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
 }
 
 
@@ -45,17 +61,24 @@ span.no {
 	cursor: pointer;
 	width: 250px;
 	margin: 0 auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
 
 }
 
 span.answer {
 	display: none;
 	font-size: 100px;
+	margin-top: 50px;
 }
 
 span.meal {
 	display: block;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -65,4 +88,5 @@ span.error-first,
 span.error-second {
 	display: none;
 	font-size: 100px;
+	margin-top: 50px;
 }
